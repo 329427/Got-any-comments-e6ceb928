@@ -1,0 +1,29 @@
+input  { 
+    border-radius: 30px;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+textarea {
+    font-size: .8em;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1.5px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    border-color:red;
+   
+}
+
+textarea:focus{border-color:green;
+outline:none;
+}
